@@ -25,7 +25,6 @@ nav li{
     border-radius: 5px;
     background-color: white;
     transition: background-color 1s;
-    font-weight: 600;
 }
 nav a:link, nav a:visited{
     color: black;
@@ -81,7 +80,7 @@ a{
     background-color: skyblue;
 }
 h1{
-    color: cornflowerblue
+    color: royalblue
 }
 p{
     text-indent: 3em;
@@ -114,7 +113,11 @@ main{
     margin: 20px;
     border-radius: 20px;
 }
-a:link, a:visited, .highlight{
+a:link, a:visited{
+    color: royalblue;
+    font-weight: bold;
+}
+.highlight{
     color: cornflowerblue;
     font-weight: bold;
 }

@@ -24,7 +24,6 @@ nav li{
     border-radius: 5px;
     background-color: white;
     transition: background-color 1s;
-    font-weight: 600;
 }
 nav a:link, nav a:visited{
     color: black;
@@ -36,7 +35,7 @@ a{
     text-decoration: none;
 }
 h1{
-    color: cornflowerblue
+    color: royalblue
 }
 p{
     text-indent: 3em;
@@ -110,6 +109,10 @@ main{
 .card:hover .cardext{
     display: block;
     animation: fadeIn 2s;
+}
+a:link, a:visited{
+    color: royalblue;
+    font-weight: bold;
 }
 footer{
     text-align: center;
